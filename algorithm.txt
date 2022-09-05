@@ -1,0 +1,15 @@
+# N observation,k clusters are given.
+# select this k random point from data
+
+#functions are:
+1)def K_random_numbers_from_data
+2) def distance_between_each_obs_&_centroids
+3)def find_smallest_distance_and_make_grp
+4)def mean_of_each_grp
+
+# this random points are taken as centroids
+# compute dist from each obs in data from each centroid
+# find smallest distance and make grp of this obs and centroids
+# then find mean of obs which is include in same grp
+# then, this mean of each grp taken as new centroid
+# and then repeate same prcedure as above until we gat same clusters in two consecutive step.
